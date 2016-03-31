@@ -1,5 +1,5 @@
 {
-  "name": "shred",
+  "name": "Shred.js",
   "version": "1.0.0",
   "description": "Generate a custom share button plugin.",
   "main": "index.js",

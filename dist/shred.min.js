@@ -1,5 +1,5 @@
 /*!
- * shred v1.0.0
+ * Shred.js v1.0.0
  * Generate a custom share button plugin.
  * Author: @ish1r0k1
  * Licensed under the MIT license
