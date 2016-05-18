@@ -1,15 +1,25 @@
 # Shred.js
 
-This plugin is generate a custom share buttons for each device.
-Simply, easily, no depend.
+This plugin is generate a custom share buttons for each device.  
+Simply, easily and no depend.
+
+Support SNS Services:
+
+* Twitter
+* Facebook
+* Google Plus
+* Pocket
+* Hatena Bookmark(for Japanese)
+* LINE(for Japanese)
 
 ## Download
-[shred.js](https://github.com/ish1r0k1/shred/archive/master.zip)
+
+[Downlaod](https://github.com/ish1r0k1/shred/archive/master.zip)
 
 ## Usage
 
 ```
-var option = {
+var options = {
   text: 'Hello, world!'  
 };
 
@@ -20,11 +30,12 @@ new Shred('selector', options);
 
 |Property|Initial|Type|Discription|
 |:--|:--|:--|:--|
+|`selector`|string or element|generated element insert selector|
 |`text`|`document.title`|string|share message|
 |`url`|location.href|string|share page url|
-|`hashtags`|`null`|string|hashtag for Twitter only|
+|`hashtags`|`null`|string|hashtag for Twitter|
 |`services`|`twitter facebook google_plus`|string|use service|
-|`counts`|`false`|boolean|enable shared count|
+|`counts`|`false`|boolean|show shared count|
 
 ## Supported sevices
 * Twitter
@@ -32,11 +43,11 @@ new Shred('selector', options);
 * Google Plus
 * Pocket
 * Hatena Bookmark(for Japanese)
-* Line(for Japanese)
+* LINE(for Japanese)
 
 ## Supported browsers
 
-* Internet Explorer 10+
+* Microsoft Internet Explorer 8+
 * FireFox
 * Google Chrome
 * Apple Safari
