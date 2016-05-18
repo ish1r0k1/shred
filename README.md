@@ -1,6 +1,6 @@
 # Shred.js
 
-This plugin is generate a custom share buttons for each device.
+This plugin is generate a custom share buttons for each device.  
 Simply, easily, no depend.
 
 ## Download
@@ -32,7 +32,7 @@ new Shred('selector', options);
 * Google Plus
 * Pocket
 * Hatena Bookmark(for Japanese)
-* Line(for Japanese)
+* LINE(for Japanese)
 
 ## Supported browsers
 
